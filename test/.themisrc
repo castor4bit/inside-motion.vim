@@ -1,0 +1,15 @@
+"--------------------------------------
+" Helper functions
+"--------------------------------------
+function! GetCursorPos()
+  return col('.') - 1
+endfunction
+
+function! GetCursorPosChar()
+  return getline('.')[col('.') - 1]
+endfunction
+
+function! InitBuffer(text)
+  normal! ggdG
+  call setline(line('.'), a:text)
+endfunction
