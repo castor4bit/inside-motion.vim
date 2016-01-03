@@ -1,4 +1,4 @@
-# inside-motion.vim
+# inside-motion.vim [![Build Status](https://travis-ci.org/castor4bit/inside-motion.vim.svg?branch=master)](https://travis-ci.org/castor4bit/inside-motion.vim) [![](https://img.shields.io/badge/lisence-NYSL-blue.svg)](LISENCE)
 
 Move into the inside of the quotes, parentheses and HTML tags.
 
