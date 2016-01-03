@@ -27,7 +27,7 @@ Customize the key mapping if you don't like the default.
 
 ```vim
 let g:inside_motion_no_default_key_mappings = 1
-nmap <silent> ,l <plug><inside-motion>
+nmap <silent> ,l <Plug><inside-motion>
 ```
 
 ## License
